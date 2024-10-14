@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* セクション：ページ全体のCSS設定 */
+body {
+    margin: 10;
+    padding: 0;
+}
+
+/* セクション：ヘッダーを整える */
+header {
+    width: 1000px;
+    margin: 10;
+    background-color: #ffcccc;
+    text-align: left;
+}
+
+/* セクション：メインビジュアルを整える */
+#main_visual {
+    width: 700px;
+    height:auto;
+    margin: 10;
+}
+
+/* セクション：メインとサイドバー（2カラムレイアウト）を整える（メインエリア全体） */
+#wrapper {
+    width: 1000px;
+    margin: 10;
+    display: flex;
+}
+
+#main {
+    width: 700px;
+    margin: 10;
+    background-color: #ccffcc;
+    text-align: left;
+}
+
+#menu {
+    width: 300px;
+    margin: 10;
+    background-color: #ccccff;
+    text-align: left;
+}
+
+/* セクション：フッターを整える */
+footer {
+    width: 1000px;
+    margin: 10;
+    background-color: #ffccff;
+    text-align: left;
+}
