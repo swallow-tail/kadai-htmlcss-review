@@ -2,42 +2,41 @@
 
 /* セクション：ページ全体のCSS設定 */
 body {
-    margin: 10;
+    margin: 10px;
     padding: 0;
 }
 
 /* セクション：ヘッダーを整える */
 header {
     width: 1000px;
-    margin: 10;
+    margin: 0;
     background-color: #ffcccc;
-    text-align: left;
 }
 
 /* セクション：メインビジュアルを整える */
 #main_visual {
     width: 700px;
     height:auto;
-    margin: 10;
+    margin: 0;
 }
 
 /* セクション：メインとサイドバー（2カラムレイアウト）を整える（メインエリア全体） */
 #wrapper {
     width: 1000px;
-    margin: 10;
+    margin: 0;
     display: flex;
 }
 
 #main {
     width: 700px;
-    margin: 10;
+    margin: 0;
     background-color: #ccffcc;
     text-align: left;
 }
 
 #menu {
     width: 300px;
-    margin: 10;
+    margin: 0;
     background-color: #ccccff;
     text-align: left;
 }
@@ -45,7 +44,6 @@ header {
 /* セクション：フッターを整える */
 footer {
     width: 1000px;
-    margin: 10;
+    margin: 0;
     background-color: #ffccff;
-    text-align: left;
 }
